@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Календарь записей</title>
+    <link rel="stylesheet" href="lch.css" />
+    <script src="Lch.js" defer></script>
+  </head>
+  <body>
+    <div id="menu" class="menu">
+      <div class="name">
+        <h1>Мукожев Максим Алексеевич</h1>
+      </div>
+      <div class="Lch">
+        <button id="LchBtn">
+          <img src="../../Icon/icon _user_.svg" />
+          Личные данные
+        </button>
+      </div>
+      <div class="histori">
+        <button id="historiBtn">
+          <img src="../../Icon/icon _calendar_.svg" />
+          История записей
+        </button>
+      </div>
+    </div>
+    <div id="content" class="content">
+      <header>
+        <button id="menuBtn">
+          <img src="../Icon/menu-hamburger.svg" />
+        </button>
+        <h1>Календарь ваших записей</h1>
+      </header>
+      <div class="LchInfo" id="LchInfo"> 
+          <div class="LchInfo1">
+              <h1>Личная информация</h1>
+          </div>
+          <div class="LchInfo3">
+              <div class="LchInfo4" 
+              style="width: 358px; height: 20px; left: 0px; top: 0px; position: absolute;">Фамилия Имя Отчество
+              </div>
+              <p><input type="text" name="userName" class="LchInfo5"
+                  style="width: 393px; height: 24px; left: 1.12px; top: 20px; position: absolute; ">
+              </p>
+              <div style="width: 76.47px; height: 25px; left: 406.12px; top: 20px; position: absolute">
+                  <div style="width: 76px; height: 25px; left: 0px; top: 0px; position: absolute;"> </div>
+                  <button class="LchInfo6" 
+                      style="width: 76px; height: 24px; left: 0.47px; top: 1px; position: absolute; text-align: center;">Изменить
+                  </button>
+              </div>
+          </div>
+          <div style="width: 483.66px; height: 44px; position: relative">
+              <div class="LchInfo4"
+                  style="width: 358px; height: 20px; left: 0px; top: 0px; position: absolute;">Место проживание
+              </div>
+              <p><input type="text" name="mestoprojivanya" class="LchInfo5"
+                  style="width: 394px; height: 24px; left: 0.83px; top: 20px; position: absolute">
+              </p>
+              <div style="width: 76.12px; height: 25px; left: 407.53px; top: 19px; position: absolute">
+                  <div style="width: 76px; height: 25px; left: 0.12px; top: 0px; position: absolute; "></div>
+                  <button class="LchInfo6"
+                      style="width: 76px; height: 24px; left: 0px; top: 1px; position: absolute; text-align: center; ">Изменить
+                  </button>
+              </div>
+          </div>
+          <div style="width: 483.45px; height: 45px; position: relative">
+              <div class="L4"
+                  style="width: 358px; height: 21px; left: 0px; top: 0px; position: absolute;">СНИЛС
+              </div>
+              <p><input type="text" name="snils" class="LchInfo5"
+                  style="width: 394px; height: 24px; left: 0.33px; top: 21px; position: absolute; ">
+              </p>
+              <div style="width: 76.12px; height: 25px; left: 407.33px; top: 20px; position: absolute">
+                  <div style="width: 76px; height: 25px; left: 0.12px; top: 0px; position: absolute; "></div>
+                  <button class="LchInfo6"
+                      style="width: 76px; height: 24px; left: 0px; top: 1px; position: absolute; text-align: center; ">Изменить
+                  </button>
+              </div>
+          </div>
+          <div style="width: 484.23px; height: 47px; position: relative">
+              <div class="LchInfo4"
+                  style="width: 358px; height: 23px; left: 0px; top: 0px; position: absolute;">Номер телефона
+              </div>
+              <p><input type="text" name="nomberPhone" class="LchInfo5"
+                  style="width: 395px; height: 24px; left: 0.11px; top: 23px; position: absolute; ">
+              </p>
+              <div style="width: 76.11px; height: 24px; left: 408.11px; top: 19px; position: absolute">
+                  <div style="width: 75.99px; height: 24px; left: 0.13px; top: 0px; position: absolute; "></div>
+                  <button class="LchInfo6"
+                      style="width: 75.99px; height: 23.04px; left: 0px; top: 0.96px; position: absolute; text-align: center; ">Изменить
+                  </button>
+              </div>
+          </div>
+          <div style="width: 122px; height: 25px; position: relative">
+              <button class="LchInfo6" id="LchExit"
+                  style="left: 36.50px; top: 6px; position: absolute; text-align: center; ">Выйти
+              </button>
+          </div>
+      </div>
+
+      <div id="Zap1" class="Zap1">
+        <div class="Zap2">
+          <h1>Личная информация</h1>
+        </div>
+        <div class="Zap3">
+          <div
+            class="Zap4"
+            style="
+              width: 358px;
+              height: 20px;
+              left: 0px;
+              top: 0px;
+              position: absolute;
+            "
+          >
+            Фамилия Имя Отчество врача
+          </div>
+          <p>
+            <input
+              type="text"
+              name="userName"
+              class="Zap5"
+              style="
+                width: 393px;
+                height: 24px;
+                left: 1.12px;
+                top: 20px;
+                position: absolute;
+              "
+            />
+          </p>
+          <div
+            style="
+              width: 76.47px;
+              height: 25px;
+              left: 406.12px;
+              top: 20px;
+              position: absolute;
+            "
+          >
+            <div
+              style="
+                width: 76px;
+                height: 25px;
+                left: 0px;
+                top: 0px;
+                position: absolute;
+              "
+            ></div>
+          </div>
+        </div>
+        <div style="width: 483.66px; height: 44px; position: relative">
+          <div
+            class="Zap4"
+            style="
+              width: 358px;
+              height: 20px;
+              left: 0px;
+              top: 0px;
+              position: absolute;
+            "
+          >
+            Число записи
+          </div>
+          <p>
+            <input
+              type="text"
+              name="mestoprojivanya"
+              class="Zap5"
+              style="
+                width: 394px;
+                height: 24px;
+                left: 0.83px;
+                top: 20px;
+                position: absolute;
+              "
+            />
+          </p>
+          <div
+            style="
+              width: 76.12px;
+              height: 25px;
+              left: 407.53px;
+              top: 19px;
+              position: absolute;
+            "
+          >
+            <div
+              style="
+                width: 76px;
+                height: 25px;
+                left: 0.12px;
+                top: 0px;
+                position: absolute;
+              "
+            ></div>
+          </div>
+        </div>
+        <div style="width: 483.45px; height: 45px; position: relative">
+          <div
+            class="Zap4"
+            style="
+              width: 358px;
+              height: 21px;
+              left: 0px;
+              top: 0px;
+              position: absolute;
+            "
+          >
+            Время записи
+          </div>
+          <p>
+            <input
+              type="text"
+              name="snils"
+              class="Zap5"
+              style="
+                width: 394px;
+                height: 24px;
+                left: 0.33px;
+                top: 21px;
+                position: absolute;
+              "
+            />
+          </p>
+          <div
+            style="
+              width: 76.12px;
+              height: 25px;
+              left: 407.33px;
+              top: 20px;
+              position: absolute;
+            "
+          >
+            <div
+              style="
+                width: 76px;
+                height: 25px;
+                left: 0.12px;
+                top: 0px;
+                position: absolute;
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="Zap7">
+          <button id="ZapRemuve">Изменить</button>
+  
+          <button id="ZapPodtverditi">Подтвердить</button>
+        </div>
+      </div>
+
+      <div>
+        <button><img src="../Icon/icon _nav arrow left_.svg" /></button>
+        <table class="otrostoc">
+          <tr class="L1">
+            <th ></th>
+          </tr>
+          <tr>
+            <th class="L2">8:00</th>
+          </tr>
+          <tr>
+            <th class="L2">9:00</th>
+          </tr>
+          <tr>
+            <th class="L2">10:00</th>
+          </tr>
+          <tr>
+            <th class="L2">11:00</th>
+          </tr>
+          <tr>
+            <th class="L2">12:00</th>
+          </tr>
+          <tr>
+            <th class="L2">13:00</th>
+          </tr>
+          <tr>
+            <th class="L2">14:00</th>
+          </tr>
+          <tr>
+            <th class="L2">15:00</th>
+          </tr>
+          <tr>
+            <th class="L2">16:00</th>
+          </tr>
+          <tr>
+            <th class="L2">17:00</th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>понедельник</th>
+            <th>вторник</th>
+            <th>среда</th>
+            <th>четверг</th>
+            <th>пятница</th>
+            <th>суббота</th>
+            <th>воскресенье</th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr class="L3">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </table>
+        <button><img src="../Icon/icon _nav arrow right_.svg" /></button>
+      </div>
+
+      <button id="L9" class="L9">Записаться к врачу</button>
+
+      <footer>
+        <img src="../Icon/Лого.svg" />
+        <h1>Всякая информация</h1>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url(../Icon/Фон.jpg) no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.login {
+  display: block;
+  border-radius: 80px;
+  background: rgba(255, 255, 255, 0.64);
+  backdrop-filter: blur(10.350000381469727px);
+  height: 400px;
+  width: 500px;
+}
+.loginHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3e97d1;
+  border-radius: 80px 80px 0 0;
+  width: 100%;
+}
+.loginHeadH {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.log_pas {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px 20px 0px 20px;
+}
+
+.log_pas input {
+  font-size: 25px;
+}
+
+.buttonInLogin {
+  border-radius: 50px;
+  width: 100px;
+  height: 25px;
+  margin-left: 187px;
+  margin-right: 187px;
+  background: #65a6d1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.assText {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.regist {
+  display: none;
+  height: auto;
+  width: 500px;
+  border-radius: 80px;
+  background: rgba(255, 255, 255, 0.64);
+  backdrop-filter: blur(10.350000381469727px);
+}
+.registHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3e97d1;
+  border-radius: 80px 80px 0 0;
+  width: 100%;
+}
+.registMain {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px 20px 0px 20px;
+  height: auto;
+  width: auto;
+}
+.registMain input {
+  font-size: 25px;
+}
+
+.regist button {
+  width: auto;
+  border-radius: 50px;
+  height: 25px;
+  padding: 20px;
+  margin-left: 120px;
+  margin-right: 187px;
+  background: #65a6d1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}

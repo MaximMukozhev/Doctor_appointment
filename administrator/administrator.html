@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Администратор</title>
+    <script src="administrator.js" defer></script>
+    <link rel="stylesheet" href="administrator.css"/>
+</head>
+<body>
+    <header>
+        <button id="LCH" class="LCH">Подтверждение личного кабинета</button>
+        <button id="doctor" class="doctor">Врачи</button>
+        <button id="rejection" class="rejection">Отказы</button>
+    </header>
+    <div>
+        <table id="LCHTable" class="LCHTable" >
+            <tr>
+                <th>ФИО</th>
+                <th>Статус</th>
+            </tr>
+            <tr class="content">
+                <th>Станислав Олегович Мосиенко</th>
+                <th>Не подтвержден</th>
+            </tr>
+        </table>
+        <table id="doctorTable" class="doctorTable" >
+            <tr>
+                <th>ФИО</th>
+                <th>Кабинет</th>
+                <th>График</th>
+            </tr>
+            <tr class="content">
+                <th>Станислав Олегович Мосиенко</th>
+                <th>501</th>
+                <th>пн-ср</th>
+            </tr>
+        </table>
+        <table id="rejectionTable" class="rejectionTable" >
+            <tr>
+                <th>ФИО врача</th>
+                <th>ФИО пациента</th>
+                <th>Дата</th>
+                <th>Причина</th>
+            </tr>
+            <tr class="content">
+                <th>Станислав Олегович Мосиенко</th>
+                <th>Мукожев Максим</th>
+                <th>12.11.23 8.00</th>
+                <th>Не успел</th>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <img src="../Icon/Лого.svg"/>
+        <h1>Всякая информация</h1>
+    </footer>    
+</body>
+</html>

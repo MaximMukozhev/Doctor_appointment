@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    background: url(../Icon/Фон.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    justify-content: space-between;
+  }
+  header {
+    display: flex;
+    border-radius: 0px 0px 50px 50px;
+    background: var(--, rgba(62, 151, 209, 0.35));
+    backdrop-filter: blur(3.549999952316284px);
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0px 110px 0px 110px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+  }
+  
+  header button {
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    margin: 0px 110px 0px 110px;
+  }
+  
+  table {
+    width: auto;
+    margin: 50px 0px 50px 0px;
+    border-spacing: 3px 0px;
+    
+  }
+  tr {
+    background-color: aliceblue;
+    font-size: 20px;
+    height: 50px;
+    
+  }
+  th {
+    border: 2px;
+    border-color: #000;
+    border-style: solid;
+    border-top: 0px;
+    width: 140px;
+  }
+  .otrostoc th{
+    width: auto;
+  }
+  .L1 {
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    
+  }
+  .L1 th {
+    border: 0px;
+  }
+  .L3 th:hover{
+    background-color: #207db6;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--, rgba(62, 151, 209, 0.35));
+    backdrop-filter: blur(4.949999809265137px);
+  }
+  
+  footer img {
+    width: 100px;
+    height: 100px;
+    margin: 50px 50px 50px 50px;
+  }
+  
+  footer h1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .L1 {
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+  }
+  div{
+    display: flex;
+  }
+  div button{
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+  }
+  .L9{
+    width: 250px;
+    height: 50px;
+  }
